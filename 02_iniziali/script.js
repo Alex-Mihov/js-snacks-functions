@@ -4,7 +4,7 @@ const names = ["Anna", "Luca", "Marco", "Adele", "Giovanni", "Alessandra"];
 
 
 // Dichiara la funzione qui.
-function inizialiNomiLista(names) {
+function inizialiNomiLista(nome) {
     // utilizzo map per creare un nuovo array applicando la funzione charAt(0) che restituisce il primo elemento di ogni nome 
     return names.map(nome => nome.charAt(0));
 }
